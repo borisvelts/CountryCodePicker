@@ -366,7 +366,7 @@ class CountryCodePickerState extends State<CountryCodePicker> {
     final item = await showModalBottomSheet(
       isScrollControlled: true,
       context: context,
-      backgroundColor: Colors.transparent,
+      backgroundColor: Colors.white,
       elevation: 0,
       builder: (ctx) {
         return SelectionBottomSheet(
